@@ -1,4 +1,5 @@
 package com.myapp.step_definitions;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -24,5 +25,4 @@ public class LoginStepDefinitions {
     public void user_supposed_to_see_welcome_message() {
         System.out.println("user supposed to see welcome message");
     }
-
 }
